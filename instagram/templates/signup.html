@@ -1,0 +1,47 @@
+{% load bootstrap3 %}
+{% block styles%}
+<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+{% endblock%}
+
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+    </div>
+    <img src="http://pngimg.com/uploads/instagram/instagram_PNG12.png" width="50" height="50" style="margin-left: -1%;">
+    <div class="col-md-4" style= "margin-left: 40%;">
+        
+      <h1 class="text-center" style="font-family: 'Oleo Script', cursive;" font color="cyan-blue">Instagram</h1>
+      <h3><font color="grey">Sign up to see photos
+        and <br>videos from your friends</font>
+      </h3> 
+      <form method="post">
+        {% csrf_token %}
+        {% for field in form %}
+        {% csrf_token %}
+        <p>
+          {{ field.label_tag }}<br>
+          {{ field }}
+          {% if field.help_text %}
+          <small style="display: none">{{ field.help_text }}</small>
+          {% endif %}
+          {% for error in field.errors %}
+          <p style="color: red">{{ error }}</p>
+          {% endfor %}
+        </p>
+        {% endfor %}
+        <div class="text-center">
+          <button type="submit" name="_submit" class="btn">Signup</button>
+        </div>
+        <div class="section">
+          <p class="forgot">Already have an account? <a href="/accounts/login">Login</a></p>
+        </div>
+        <input type="hidden" name="next" value="{{next}}">
+      </form>
+
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+</div>
+{% endblock %}
