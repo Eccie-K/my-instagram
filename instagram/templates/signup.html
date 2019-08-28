@@ -1,5 +1,6 @@
 {% load bootstrap3 %}
 {% block styles%}
+{% load static %}
 <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
 <link rel="stylesheet" href="{% static 'css/insta.css' %}">
 {% endblock%}
@@ -13,9 +14,9 @@
     
     <div class="col-md-4" style= "margin-left: 40%;">
         
-      <h1 class="text-center" style="font-family: 'Oleo Script', cursive;" font color="cyan-blue">Instagram</h1>
-      <h3><font color="grey">Sign up to see photos
-        and <br>videos from your friends</font>
+      <h1 class="text-center" style="font-family: 'Oleo Script', cursive;" font color="deepskyblue">Instagram</h1>
+      <h3> <font color="grey">Sign up to see photos
+         <br>from your friends</font>
       </h3> 
       <form method="post">
         {% csrf_token %}

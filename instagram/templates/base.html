@@ -1,33 +1,30 @@
 {% load static %}
 {% load staticfiles %}
+
 <html>
 
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+
   {% block styles %}
-  
+  <link rel="stylesheet" href="{% static 'css/insta.css' %}">
 
   {% endblock %}
 </head>
 
-<body>
+<body class="body">
 
   {% include "navbar.html" %}
   {%block content %}{%endblock%}
+ 
 
   {% block scripts %}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="main.js"></script>
   {% endblock %}
 </body>
-<style>
-  .body{
-    background: url(https://travelfinders.ie/wp-content/uploads/2014/12/pexels-photo-531035-beach-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-</style>
+
 
 </html>
