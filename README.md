@@ -31,7 +31,7 @@ Esther Kirui
 <h2>Set Up Instructions and Requirements</h2>
 <b>To start using this project use the following commands:</b><br>
 - git clone https://github.com/Eccie-K/my-instagram<br>
-- From your terminal, type the following command: cd Documents/instagram
+- From your terminal, type the following command: cd Documents/instagram<br>
 - <b>Use the following command to open with an editor of your choice:</b><br>
  code .(for visual studio users) and <br>atom .(for atom users)<br>
 - Type the following command to run the application: <br>
