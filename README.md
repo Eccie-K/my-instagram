@@ -30,7 +30,7 @@ Esther Kirui
 
 <h2>Set Up Instructions and Requirements</h2>
 <b>To start using this project use the following commands:</b><br>
-- git clone https://github.com/Eccie-K/photo-gallery<br>
+- git clone https://github.com/Eccie-K/my-instagram<br>
 - From your terminal, type the following command: cd Documents/instagram
 - <b>Use the following command to open with an editor of your choice:</b><br>
  code .(for visual studio users) and <br>atom .(for atom users)<br>
@@ -56,4 +56,4 @@ Mobile:+254775946131<br>
 Email:estherkc100@gmail.com<br>
 
 <h2>License and Copyright Information</h2>
-https://github.com/Eccie-K/instagram/blob/master/LICENSE.md
+https://github.com/Eccie-K/my-instagram/blob/master/LICENSE.md
