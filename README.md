@@ -1,7 +1,7 @@
 <h2>Instagram</h2>
 
 <h2>Description</h2>
-My-nstagram is a clone of instagram. It allows users to sign-up, login and upload photos and posts.
+my-instagram is a clone of instagram. It allows users to sign-up, login and upload photos and posts.
 
 <h2>Author</h2>
 Esther Kirui
@@ -29,11 +29,13 @@ Esther Kirui
 
 
 <h2>Set Up Instructions and Requirements</h2>
-To start using this project use the following commands:<br>
+<b>To start using this project use the following commands:</b><br>
 - git clone https://github.com/Eccie-K/photo-gallery<br>
 - From your terminal, type the following command: cd Documents/instagram
-- Use the following command to open with an editor of your choice: code .(for visual studio users) and atom .(for atom users)<br>
-- Type the following command to run the application: python3.6 manage.py runserver
+- <b>Use the following command to open with an editor of your choice:</b><br>
+ code .(for visual studio users) and <br>atom .(for atom users)<br>
+- Type the following command to run the application: <br>
+      python3.6 manage.py runserver
 - access the application on your local host: http//:127.0.0.1:8000 by opening the link from the terminal<br>
 
 <h2>Pre-requisites</h2>
