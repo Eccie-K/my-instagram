@@ -1,7 +1,7 @@
 <h2>Instagram</h2>
 
 <h2>Description</h2>
-Instagram is a clone of instagram. It allows users to sign-up, login and upload photos and posts.
+My-nstagram is a clone of instagram. It allows users to sign-up, login and upload photos and posts.
 
 <h2>Author</h2>
 Esther Kirui
